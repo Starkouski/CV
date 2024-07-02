@@ -1,1 +1,1 @@
-# CV
+https://Starkouski.github.io/CV/
