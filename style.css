@@ -1,0 +1,12 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+}
+
+.avatar {
+    border-radius: 120px;
+}
