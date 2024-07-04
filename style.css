@@ -1,12 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
     max-width: 1440px;
     margin: 0 auto;
 }
 
+li {
+    list-style-type: none;
+    line-height: 2;
+   }
+
+a {
+    text-decoration: none;
+    color: black;
+} 
+
+.text {
+    margin-left: 30px;
+}
+
 .container{
+    font-family: "Arsenal SC", sans-serif;;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
     display: flex;
 }
 
+.left {
+    width: 30%;
+    background-color: LightSteelBlue;
+}
+
+.container_avatar {
+    text-align: center;
+    margin-top: 25px;
+}
+
 .avatar {
-    border-radius: 120px;
+    border-radius: 120px;      
+}
+
+.list_element {
+    display: flex;
+    align-items: center;
+}
+
+.list_img {
+    padding-top: 7px;
+    padding-right: 15px;
+}
+
+.lang {
+    width: 80px;
+}
+
+.skill {
+    width: 170px;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 1px solid DimGrey;
+}
+
+.lock{
+    background-color: DimGrey;
+}
+
+.right {
+    width: 70%;
 }
