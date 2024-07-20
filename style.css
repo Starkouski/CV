@@ -3,6 +3,7 @@
 body {
     max-width: 1440px;
     margin: 0 auto;
+    background-color: rgb(196, 204, 207);
 }
 
 ul {
@@ -38,7 +39,7 @@ p {
 
 .left {
     width: 30%;
-    background-color: LightSteelBlue;
+    background-color: rgb(170, 193, 222);
 }
 
 .container_avatar {
@@ -68,6 +69,10 @@ p {
     width: 170px;
 }
 
+.key_skill {
+    width: 100%;
+}
+
 .circle {
     width: 16px;
     height: 16px;
@@ -82,6 +87,13 @@ p {
 
 .right {
     width: 70%;
+}
+
+.line {
+    height: 1px;
+    width: 50%;
+    margin: 40px auto;
+    background-color: black;
 }
 
 @media screen and (max-width: 1280px) {
@@ -111,6 +123,9 @@ h1, h2 {
 }
 .text {
     margin-left: 0;
+}
+.key_skill {
+    margin-left: 15px;
 }
 
 }
